@@ -627,7 +627,7 @@ def add_park_boundaries(my_map, park_name):
 
 def get_region_data(region):
     if region == '수도권':
-        model_average_file = './권역별_pkl/ModelAverage_수도권ver1.pkl'
+        model_average_file = './streamlit/권역별_pkl/ModelAverage_수도권ver1.pkl'
         data_file = './권역별_pkl/AcuallyData_수도권ver1.pkl'
         threshold = 0.4416666666666666
         variables = ['bare', 'crops', 'VV', 'built', 'water', 'slope', 'aspect', 'elevation']
